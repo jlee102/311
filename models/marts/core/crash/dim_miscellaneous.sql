@@ -2,7 +2,8 @@ with miscellaneous as (
 
     select
         CONTRIBUTING_FACTOR_VEHICLE_1,
-        NUMBER_OF_PERSONS_INJURED
+        NUMBER_OF_PERSONS_INJURED,
+        COLLISION_ID
 
     FROM `etl-311323.Motor_Vehicle_Crash.collision` 
 
