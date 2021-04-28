@@ -5,10 +5,12 @@ with complaint as (
         Unique_Key,
         Agency_Name,
         Complaint_Type,
-        Status
+        Status,
+        
  
     FROM `etl-311323.Motor_Vehicle_Crash.STREET_CONDITION_FULL` 
  
 )
  
 select * from complaint
+
